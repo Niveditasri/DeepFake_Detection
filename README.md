@@ -115,7 +115,7 @@ videos.
 - We primarily experimented only with various pre-trained CNN models like EfficientNet, and 
 ResNet by finding the probability of each video frame being fake and predicting the output based on an aggregate of these probabilities. But the results weren’t satisfactory, so we went forward by combining CNN and RNN models.
 
-- For the CNN + RNN model, the features of face-cropped video frames are extracted using pretrained CNN models and it is passed onto the RNN model which classifies the video as REAL or 
+- For the CNN, the features of face-cropped video frames are extracted using pretrained CNN models and it is passed onto the RNN model which classifies the video as REAL or 
 FAKE. We Experimented with EfficientNet and inception net for the feature extraction part and 
 GRU is used to make the classification. We have obtained a maximum Test Accuracy of ~85% 
 using this approach. Our model has high precision for FAKE videos which is obtained by giving 
