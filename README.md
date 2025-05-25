@@ -1,19 +1,4 @@
 # DeepFake_Detection
-## Table of Contents:
-- What is DeepFake?
-- Demo of the Project
-- Impact of DeepFake Videos
-- Project Objectives
-- Project Pipeline
-  - Pre-processing WorkFlow
-  - Prediction WorkFlow
-- Models Usage and their Architecture
-- Deploy
-  - Code Running Commands
-- Technologies Used
-- Conclusion
-- Team
-
 
 ## What is DeepFake?
 - DeepFakes are images or videos which have been altered to feature the face of
@@ -22,9 +7,6 @@ Converter.
 - Many Deep Fakes are done by superimposing or combining existing images into source
 images and videos using Generative Adversarial Networks (GAN) and these networks
 are developing better every day
-
-## Demo of the Project
-Link : https://www.youtube.com/watch?v=wy8mVnBZ6pY&ab_channel=BalajiKartheek
 
 ## Impact of DeepFake Videos
 - DeepFakes can be used to create fake news, celebrity unusual videos, politician
@@ -74,18 +56,6 @@ head and the model will learn what features differentiate a real image from a de
 
 # Models Usage: 
 ### Models with CNN Architecture
-
-Implemented the following models with CNN architecture
-**MesoNet**
-- This model is pre-trained to detect deepfake images, but it is bad at detecting Fake 
-video frames
-**ResNet50v**
-- This model is trained using dee fake images cropped from the videos with preset 
-weights of imagenet dataset
-**EfficientNetB0**
-- This model is also trained using deepfake images cropped from the videos with 
-preset weights of imagenet dataset
-
 ### Models with CNN + Seqential Architecture
 **InceptionV3(CNN Model) + GRU(sequential)**
 
@@ -154,7 +124,7 @@ more FAKE videos during the training of the Model.
 
 ## Team :
 1.  [Balaji Kartheek](https://github.com/Balaji-Kartheek)
-2.  [Aaron Dsouza](https://github.com/DsouzaAaron)
+2.  [Nivedita]([https://github.com/)](https://github.com/Niveditasri)
 
 
 
